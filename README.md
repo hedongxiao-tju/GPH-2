@@ -17,8 +17,11 @@ Graph pre-training has achieved remarkable success in recent years, delivering t
 
 
 ## Getting Started
+
 Change directory to `code` and run the following command for *cora* dataset:
+
 `python down_task.py --data_name cora --encoders citeseer_pubmed_amazon-photo_amazon-computer --lr 0.01 --dropout 0.2 --num_layers 5`
+
 The hyper-parameters of all datasets can be found in Table 7 of the paper.
 
 
